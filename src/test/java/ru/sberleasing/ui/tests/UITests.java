@@ -11,7 +11,7 @@ public class UITests extends TestBase {
     FilteredResultPage filteredResultPage = new FilteredResultPage();
 
     @Test
-    void goTosberLeasingPage() {
+    void parameterFilterTest() {
         googleSearchPage
                 .setValueAndPressEnter("СберЛизинг")
                 .clickSberLeasingLink()
